@@ -1,0 +1,483 @@
+# PostMN MassQL export
+# task_id	0bd4d95478e7499dad2ffead34ddec13
+# query	MS2_neg	QUERY scaninfo(MS2DATA) WHERE MS2PROD=78.96:TOLERANCEMZ=0.01
+scan	query_validation	precmz
+5	Did not pass any selected query	160.84231
+6	Did not pass any selected query	162.83912
+7	Did not pass any selected query	168.85472
+9	Did not pass any selected query	195.81099
+10	Did not pass any selected query	197.80797
+12	Did not pass any selected query	268.80102
+14	Did not pass any selected query	384.93538
+16	Did not pass any selected query	248.9605
+17	Did not pass any selected query	520.91142
+18	Did not pass any selected query	123.02189
+19	MS2_neg	276.02528
+20	Did not pass any selected query	210.05345
+21	MS2_neg	236.03296
+23	MS2_neg	149.99606
+24	MS2_neg	193.98605
+25	MS2_neg	254.04348
+26	MS2_neg	509.09414
+27	Did not pass any selected query	764.1453
+28	MS2_neg	1019.19627
+29	Did not pass any selected query	786.12744
+30	MS2_neg	531.07637
+31	MS2_neg	276.02526
+32	Did not pass any selected query	553.05773
+33	MS2_neg	322.03112
+34	MS2_neg	268.0591
+37	Did not pass any selected query	322.03078
+39	MS2_neg	268.05921
+41	MS2_neg	210.05384
+42	Did not pass any selected query	174.95619
+45	Did not pass any selected query	174.95631
+46	MS2_neg	282.07476
+47	Did not pass any selected query	304.05659
+49	MS2_neg	254.04331
+50	MS2_neg	268.05916
+51	Did not pass any selected query	236.03281
+52	Did not pass any selected query	174.95612
+54	Did not pass any selected query	254.04364
+55	Did not pass any selected query	228.04892
+56	Did not pass any selected query	343.11227
+59	Did not pass any selected query	160.06172
+60	MS2_neg	238.89151
+61	MS2_neg	238.89213
+64	Did not pass any selected query	318.07236
+66	Did not pass any selected query	615.16974
+67	Did not pass any selected query	912.26877
+68	MS2_neg	236.03291
+69	MS2_neg	252.10067
+71	MS2_neg	593.18805
+72	MS2_neg	296.09051
+74	MS2_neg	282.07467
+75	Did not pass any selected query	318.07254
+76	MS2_neg	364.07774
+79	Did not pass any selected query	174.95674
+81	Did not pass any selected query	174.95553
+83	MS2_neg	238.89267
+84	MS2_neg	238.89178
+86	MS2_neg	252.10067
+87	MS2_neg	310.10614
+88	Did not pass any selected query	607.20396
+89	MS2_neg	236.03283
+90	MS2_neg	296.09031
+91	MS2_neg	593.18808
+93	MS2_neg	342.09585
+94	Did not pass any selected query	890.28583
+95	Did not pass any selected query	615.1697
+96	MS2_neg	238.89062
+97	MS2_neg	364.07758
+99	MS2_neg	269.04302
+100	Did not pass any selected query	310.10638
+102	MS2_neg	324.12169
+103	MS2_neg	392.10889
+104	MS2_neg	238.89154
+106	Did not pass any selected query	296.09
+107	MS2_neg	406.12486
+108	MS2_neg	338.13747
+110	MS2_neg	677.28249
+111	MS2_neg	411.15342
+112	MS2_neg	278.07957
+113	Did not pass any selected query	699.26395
+115	Did not pass any selected query	324.12148
+119	Did not pass any selected query	162.83952
+120	Did not pass any selected query	160.84206
+121	Did not pass any selected query	406.12507
+122	MS2_neg	677.28218
+123	MS2_neg	238.89171
+125	MS2_neg	374.11385
+127	MS2_neg	396.09587
+128	Did not pass any selected query	162.83918
+129	Did not pass any selected query	160.8421
+133	Did not pass any selected query	195.81089
+135	Did not pass any selected query	197.80794
+141	Did not pass any selected query	338.1371
+142	Did not pass any selected query	162.83924
+143	Did not pass any selected query	374.11312
+144	MS2_neg	238.8917
+145	Did not pass any selected query	338.13741
+150	MS2_neg	238.89164
+151	Did not pass any selected query	248.96059
+154	Did not pass any selected query	248.96067
+155	MS2_neg	238.89169
+156	Did not pass any selected query	248.96101
+159	MS2_neg	238.89177
+160	MS2_neg	248.96009
+162	Did not pass any selected query	316.94799
+163	Did not pass any selected query	384.93621
+164	Did not pass any selected query	316.94713
+165	Did not pass any selected query	248.96003
+167	Did not pass any selected query	316.94709
+169	MS2_neg	238.89153
+171	Did not pass any selected query	316.9471
+173	Did not pass any selected query	248.95987
+174	Did not pass any selected query	149.99482
+176	MS2_neg	208.38385
+180	MS2_neg	208.38326
+181	MS2_neg	238.89147
+182	Did not pass any selected query	248.96054
+183	MS2_neg	238.89145
+185	Did not pass any selected query	248.96038
+188	Did not pass any selected query	248.95992
+190	Did not pass any selected query	248.96028
+191	Did not pass any selected query	248.96041
+192	Did not pass any selected query	384.93483
+193	Did not pass any selected query	316.94782
+194	MS2_neg	238.89161
+195	Did not pass any selected query	316.9476
+200	Did not pass any selected query	316.94782
+201	Did not pass any selected query	520.90883
+203	Did not pass any selected query	316.948
+204	Did not pass any selected query	384.93435
+208	Did not pass any selected query	208.383
+209	Did not pass any selected query	316.94795
+210	MS2_neg	452.92274
+211	MS2_neg	248.96031
+212	Did not pass any selected query	384.93629
+213	Did not pass any selected query	520.91172
+214	MS2_neg	238.89158
+218	Did not pass any selected query	248.96043
+219	Did not pass any selected query	180.97268
+221	Did not pass any selected query	248.96058
+222	Did not pass any selected query	316.94828
+223	Did not pass any selected query	337.80941
+224	Did not pass any selected query	248.96037
+225	Did not pass any selected query	248.95986
+226	Did not pass any selected query	316.94719
+228	MS2_neg	238.89157
+229	Did not pass any selected query	520.90983
+230	Did not pass any selected query	316.94782
+231	Did not pass any selected query	384.93459
+233	Did not pass any selected query	520.90868
+234	Did not pass any selected query	520.91014
+235	Did not pass any selected query	316.94786
+236	Did not pass any selected query	520.90988
+237	Did not pass any selected query	520.91007
+240	Did not pass any selected query	452.92175
+241	Did not pass any selected query	316.94819
+242	Did not pass any selected query	149.99454
+243	Did not pass any selected query	316.94789
+244	Did not pass any selected query	384.93509
+245	Did not pass any selected query	588.89408
+246	Did not pass any selected query	520.91048
+247	Did not pass any selected query	248.9607
+248	Did not pass any selected query	384.9352
+249	Did not pass any selected query	384.93492
+251	Did not pass any selected query	149.99452
+253	Did not pass any selected query	238.89078
+254	Did not pass any selected query	316.94766
+255	Did not pass any selected query	520.90877
+256	Did not pass any selected query	337.80771
+261	Did not pass any selected query	248.96023
+262	Did not pass any selected query	384.9343
+263	MS2_neg	238.89133
+264	Did not pass any selected query	180.97266
+267	Did not pass any selected query	520.90989
+269	Did not pass any selected query	452.92208
+271	MS2_neg	238.89247
+273	Did not pass any selected query	316.94773
+275	Did not pass any selected query	384.93604
+276	Did not pass any selected query	144.92358
+277	Did not pass any selected query	588.89668
+282	Did not pass any selected query	144.92357
+283	Did not pass any selected query	452.92112
+284	Did not pass any selected query	384.93526
+286	Did not pass any selected query	384.93494
+287	Did not pass any selected query	144.9234
+288	Did not pass any selected query	384.93547
+291	Did not pass any selected query	384.93558
+292	Did not pass any selected query	452.92287
+293	Did not pass any selected query	588.89762
+294	Did not pass any selected query	144.92374
+296	Did not pass any selected query	384.93494
+297	Did not pass any selected query	452.92202
+298	Did not pass any selected query	180.9727
+299	Did not pass any selected query	384.93553
+301	Did not pass any selected query	588.89595
+302	Did not pass any selected query	180.9728
+304	Did not pass any selected query	144.92373
+305	Did not pass any selected query	180.97253
+307	Did not pass any selected query	520.90936
+308	Did not pass any selected query	248.96038
+309	Did not pass any selected query	149.99455
+310	Did not pass any selected query	452.92246
+312	Did not pass any selected query	452.92241
+314	Did not pass any selected query	316.94764
+316	Did not pass any selected query	180.9725
+317	Did not pass any selected query	520.90901
+318	Did not pass any selected query	792.85923
+319	Did not pass any selected query	588.89676
+321	Did not pass any selected query	149.99455
+322	Did not pass any selected query	180.97279
+324	Did not pass any selected query	384.93477
+326	Did not pass any selected query	520.9093
+329	Did not pass any selected query	588.89656
+330	Did not pass any selected query	656.88454
+331	Did not pass any selected query	180.97252
+332	Did not pass any selected query	316.94766
+333	Did not pass any selected query	588.89637
+334	Did not pass any selected query	656.88383
+336	Did not pass any selected query	656.88606
+337	Did not pass any selected query	792.85916
+340	Did not pass any selected query	384.93515
+341	Did not pass any selected query	160.91802
+342	Did not pass any selected query	125.92884
+343	Did not pass any selected query	452.92218
+344	Did not pass any selected query	724.87108
+345	Did not pass any selected query	125.92907
+346	Did not pass any selected query	656.88389
+347	Did not pass any selected query	724.87192
+349	Did not pass any selected query	125.92908
+351	Did not pass any selected query	510.88083
+352	Did not pass any selected query	588.89679
+353	Did not pass any selected query	125.92902
+356	Did not pass any selected query	792.8581
+357	Did not pass any selected query	125.92873
+360	Did not pass any selected query	316.94761
+362	Did not pass any selected query	452.92237
+363	Did not pass any selected query	724.87135
+365	Did not pass any selected query	160.91852
+366	Did not pass any selected query	520.90972
+367	Did not pass any selected query	724.87148
+369	Did not pass any selected query	160.91802
+370	Did not pass any selected query	141.92365
+371	Did not pass any selected query	125.92886
+372	Did not pass any selected query	248.96035
+373	Did not pass any selected query	792.86049
+374	Did not pass any selected query	792.85873
+375	Did not pass any selected query	316.94795
+376	Did not pass any selected query	724.87339
+377	Did not pass any selected query	141.92352
+379	Did not pass any selected query	160.91794
+380	Did not pass any selected query	384.93514
+381	Did not pass any selected query	588.89686
+382	Did not pass any selected query	656.88447
+383	Did not pass any selected query	306.91903
+384	Did not pass any selected query	238.93116
+385	Did not pass any selected query	724.87143
+387	Did not pass any selected query	510.88086
+388	Did not pass any selected query	578.86764
+390	Did not pass any selected query	656.88597
+391	Did not pass any selected query	248.96047
+392	Did not pass any selected query	306.91903
+393	Did not pass any selected query	724.87164
+395	Did not pass any selected query	374.90537
+398	Did not pass any selected query	134.89526
+400	Did not pass any selected query	578.86938
+401	Did not pass any selected query	316.94767
+402	Did not pass any selected query	442.89432
+403	Did not pass any selected query	134.89468
+404	Did not pass any selected query	160.91828
+405	Did not pass any selected query	578.86838
+406	Did not pass any selected query	510.88106
+410	Did not pass any selected query	125.92893
+414	Did not pass any selected query	510.88041
+415	Did not pass any selected query	306.91892
+417	Did not pass any selected query	188.02173
+419	Did not pass any selected query	180.97297
+420	Did not pass any selected query	442.89365
+421	Did not pass any selected query	578.86797
+423	Did not pass any selected query	374.90611
+426	MS2_neg	160.91826
+427	Did not pass any selected query	238.93164
+430	Did not pass any selected query	442.89393
+431	Did not pass any selected query	411.34702
+433	Did not pass any selected query	144.92347
+434	Did not pass any selected query	188.02147
+436	Did not pass any selected query	442.89319
+440	Did not pass any selected query	257.93881
+442	Did not pass any selected query	124.99902
+443	Did not pass any selected query	374.90641
+444	Did not pass any selected query	520.90943
+448	Did not pass any selected query	248.96075
+449	Did not pass any selected query	452.92184
+450	Did not pass any selected query	141.92382
+451	Did not pass any selected query	160.91825
+452	Did not pass any selected query	149.99455
+456	Did not pass any selected query	257.93913
+457	Did not pass any selected query	188.02133
+458	Did not pass any selected query	316.94751
+460	MS2_neg	306.91949
+461	Did not pass any selected query	510.88013
+462	Did not pass any selected query	238.93168
+465	Did not pass any selected query	452.92237
+466	Did not pass any selected query	180.97308
+472	Did not pass any selected query	510.87988
+473	Did not pass any selected query	384.93504
+475	Did not pass any selected query	520.91033
+477	Did not pass any selected query	306.91909
+478	Did not pass any selected query	160.91836
+479	Did not pass any selected query	124.99939
+480	Did not pass any selected query	257.93881
+481	Did not pass any selected query	374.90613
+482	Did not pass any selected query	139.01494
+484	Did not pass any selected query	439.37891
+486	Did not pass any selected query	306.91912
+488	Did not pass any selected query	188.02134
+489	Did not pass any selected query	238.93143
+490	Did not pass any selected query	257.93911
+491	Did not pass any selected query	452.92263
+493	Did not pass any selected query	374.90623
+494	Did not pass any selected query	306.91848
+496	Did not pass any selected query	374.90711
+498	Did not pass any selected query	124.99946
+499	Did not pass any selected query	134.89467
+500	Did not pass any selected query	306.91877
+501	Did not pass any selected query	374.90563
+503	Did not pass any selected query	238.93211
+509	Did not pass any selected query	144.92352
+511	Did not pass any selected query	188.02131
+512	Did not pass any selected query	257.93872
+514	Did not pass any selected query	141.92384
+515	Did not pass any selected query	188.02177
+516	Did not pass any selected query	121.99936
+517	Did not pass any selected query	384.93514
+519	Did not pass any selected query	238.93172
+520	Did not pass any selected query	452.9223
+521	Did not pass any selected query	510.88069
+522	Did not pass any selected query	134.89481
+524	Did not pass any selected query	510.88181
+525	Did not pass any selected query	374.90596
+526	Did not pass any selected query	238.9315
+527	Did not pass any selected query	588.89745
+528	Did not pass any selected query	121.99961
+529	Did not pass any selected query	510.88122
+530	Did not pass any selected query	121.99955
+534	Did not pass any selected query	139.01502
+536	Did not pass any selected query	238.93161
+537	Did not pass any selected query	188.0213
+538	Did not pass any selected query	452.92228
+540	Did not pass any selected query	384.93511
+541	Did not pass any selected query	510.88205
+542	Did not pass any selected query	520.90968
+545	Did not pass any selected query	306.91897
+546	Did not pass any selected query	180.97308
+547	Did not pass any selected query	374.906
+551	Did not pass any selected query	588.89722
+552	Did not pass any selected query	121.99972
+554	Did not pass any selected query	188.02135
+555	Did not pass any selected query	238.93239
+556	Did not pass any selected query	374.90711
+557	Did not pass any selected query	144.92343
+560	Did not pass any selected query	510.88192
+561	Did not pass any selected query	139.01503
+562	Did not pass any selected query	238.93167
+564	Did not pass any selected query	316.94778
+566	Did not pass any selected query	149.99462
+569	Did not pass any selected query	442.8926
+570	Did not pass any selected query	188.02109
+572	Did not pass any selected query	124.99936
+573	Did not pass any selected query	149.99457
+574	Did not pass any selected query	248.96061
+576	Did not pass any selected query	180.97304
+579	Did not pass any selected query	238.93139
+580	Did not pass any selected query	588.89709
+581	Did not pass any selected query	520.90978
+583	Did not pass any selected query	141.92385
+584	Did not pass any selected query	316.94778
+588	MS2_neg	188.0212
+589	Did not pass any selected query	134.89468
+590	Did not pass any selected query	306.91825
+593	Did not pass any selected query	180.97313
+594	Did not pass any selected query	248.96048
+596	Did not pass any selected query	510.88076
+597	Did not pass any selected query	121.99964
+598	Did not pass any selected query	188.02125
+599	Did not pass any selected query	442.89299
+601	Did not pass any selected query	588.898
+604	Did not pass any selected query	188.02114
+605	Did not pass any selected query	384.93509
+607	Did not pass any selected query	520.90985
+609	Did not pass any selected query	144.92362
+610	Did not pass any selected query	257.93889
+613	Did not pass any selected query	374.90639
+614	Did not pass any selected query	452.9223
+616	Did not pass any selected query	141.9239
+618	Did not pass any selected query	588.89676
+621	Did not pass any selected query	578.86914
+623	Did not pass any selected query	257.93876
+626	Did not pass any selected query	306.91895
+631	MS2_neg	188.0207
+632	Did not pass any selected query	374.90644
+634	Did not pass any selected query	578.86817
+638	Did not pass any selected query	510.88094
+639	Did not pass any selected query	124.99916
+640	MS2_neg	188.02166
+641	Did not pass any selected query	134.89486
+643	Did not pass any selected query	588.89732
+645	Did not pass any selected query	197.80702
+646	Did not pass any selected query	238.93178
+649	Did not pass any selected query	124.99942
+650	Did not pass any selected query	141.92388
+652	Did not pass any selected query	149.99459
+654	Did not pass any selected query	188.02094
+657	Did not pass any selected query	197.80738
+659	Did not pass any selected query	139.01505
+660	Did not pass any selected query	188.02194
+661	Did not pass any selected query	510.88078
+663	Did not pass any selected query	238.93158
+665	Did not pass any selected query	188.02173
+666	MS2_neg	442.89362
+667	Did not pass any selected query	656.88375
+670	Did not pass any selected query	316.94786
+673	Did not pass any selected query	384.93547
+674	MS2_neg	442.89286
+675	Did not pass any selected query	520.9098
+677	Did not pass any selected query	248.96056
+678	Did not pass any selected query	452.92238
+679	Did not pass any selected query	588.89741
+680	Did not pass any selected query	578.86821
+682	Did not pass any selected query	139.01498
+683	Did not pass any selected query	188.02119
+688	Did not pass any selected query	342.897
+691	Did not pass any selected query	134.89467
+693	Did not pass any selected query	333.81421
+694	Did not pass any selected query	144.92352
+697	Did not pass any selected query	510.88139
+698	Did not pass any selected query	374.90625
+701	Did not pass any selected query	452.92219
+703	Did not pass any selected query	316.9477
+704	Did not pass any selected query	384.93499
+706	Did not pass any selected query	860.84588
+707	Did not pass any selected query	792.85844
+708	Did not pass any selected query	180.97303
+709	Did not pass any selected query	588.89672
+710	Did not pass any selected query	656.88404
+711	Did not pass any selected query	724.87154
+712	Did not pass any selected query	758.86399
+713	Did not pass any selected query	248.9603
+714	Did not pass any selected query	690.87696
+715	Did not pass any selected query	520.90972
+722	Did not pass any selected query	333.81386
+723	MS2_neg	208.3838
+724	MS2_neg	337.80866
+725	MS2_neg	147.90993
+733	MS2_neg	248.36726
+737	MS2_neg	238.89163
+738	MS2_neg	249.87615
+739	MS2_neg	294.81141
+740	MS2_neg	322.84408
+744	MS2_neg	158.92543
+745	MS2_neg	260.87324
+746	MS2_neg	257.86507
+747	MS2_neg	265.34745
+748	MS2_neg	276.33834
+749	MS2_neg	305.33047
+752	MS2_neg	268.85587
+753	MS2_neg	149.99462
+755	MS2_neg	274.35185
+756	MS2_neg	248.36696
+764	Did not pass any selected query	174.95611
+769	MS2_neg	208.38382
+772	MS2_neg	238.89106
+774	MS2_neg	238.89204
+776	MS2_neg	208.38297
+777	MS2_neg	238.89171
+780	MS2_neg	238.89145
+781	MS2_neg	238.89232
+783	Did not pass any selected query	174.95621
+786	MS2_neg	238.89253
+790	Did not pass any selected query	174.95629
+793	Did not pass any selected query	174.95613

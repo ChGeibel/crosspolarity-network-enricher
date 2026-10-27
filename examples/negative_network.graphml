@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cosine" attr.type="double"/>
+<key id="d2" for="node" attr.name="RTMean" attr.type="double"/>
+<key id="d1" for="node" attr.name="precursor mass" attr.type="double"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="501">
+  <data key="d0">NEG feature 501</data>
+  <data key="d1">299.1266</data>
+  <data key="d2">12.39</data>
+</node>
+<node id="502">
+  <data key="d0">NEG feature 502</data>
+  <data key="d1">323.0932</data>
+  <data key="d2">14.18</data>
+</node>
+<node id="503">
+  <data key="d0">NEG feature 503</data>
+  <data key="d1">439.183</data>
+  <data key="d2">16.4</data>
+</node>
+<edge source="501" target="502">
+  <data key="d3">0.8</data>
+</edge>
+<edge source="502" target="503">
+  <data key="d3">0.73</data>
+</edge>
+</graph></graphml>

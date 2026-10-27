@@ -1,0 +1,1055 @@
+# PostMN MassQL export
+# task_id	4a83b08f0c9c41888b7db29c267f3cf1
+# query	SeqNL_carbamate	QUERY scaninfo(MS2DATA) WHERE MS2PROD=X:TOLERANCEPPM=5 AND MS2PROD=X-86.037:TOLERANCEPPM=10
+# query	NL_Propyl	QUERY scaninfo(MS2DATA) WHERE MS2NL=42.047
+scan	query_validation	precmz	Compound_Name	SpectrumID
+5	Did not pass any selected query	196.86501		
+7	Did not pass any selected query	256.8206		
+8	Did not pass any selected query	138.90607		
+9	Did not pass any selected query	158.96237		
+11	Did not pass any selected query	96.04218		
+13	Did not pass any selected query	141.95827		
+14	Did not pass any selected query	158.00238		
+16	Did not pass any selected query	195.07661		
+17	Did not pass any selected query	212.10217		
+18	SeqNL_carbamate	788.14106		
+19	Did not pass any selected query	124.01558		
+23	Did not pass any selected query	210.05229		
+24	Did not pass any selected query	238.04717		
+25	SeqNL_carbamate | NL_Propyl	256.05785		
+26	SeqNL_carbamate	335.09991		
+27	SeqNL_carbamate	511.10874		
+28	SeqNL_carbamate	766.15922		
+29	SeqNL_carbamate	1021.20944		
+30	Did not pass any selected query	196.0003		
+31	Did not pass any selected query	228.06305		
+32	Did not pass any selected query	564.02014		
+33	SeqNL_carbamate	1043.19058		
+35	SeqNL_carbamate	278.03977		
+36	Did not pass any selected query	301.11579		
+37	SeqNL_carbamate	533.09037		
+38	Did not pass any selected query	235.11826		
+39	Did not pass any selected query	300.02176		
+40	Did not pass any selected query	555.0715		
+41	Did not pass any selected query	292.05514		
+43	Did not pass any selected query	159.96868		
+44	SeqNL_carbamate | NL_Propyl	270.07353		
+45	Did not pass any selected query	158.0025		
+46	Did not pass any selected query	141.95807		
+47	Did not pass any selected query	212.10102		
+48	Did not pass any selected query	117.05431		
+50	Did not pass any selected query	212.10128		
+51	Did not pass any selected query	261.12316		
+52	Did not pass any selected query	128.9505		
+53	Did not pass any selected query	176.97132		
+54	Did not pass any selected query	158.96118		
+55	Did not pass any selected query	270.07347		
+56	Did not pass any selected query	186.95594		
+59	Did not pass any selected query	190.10682		
+60	Did not pass any selected query	235.11814		
+61	Did not pass any selected query	176.9716		
+62	Did not pass any selected query	212.06801		
+63	Did not pass any selected query	190.10683		
+64	Did not pass any selected query	449.10819		
+65	Did not pass any selected query	212.10124		
+66	Did not pass any selected query	141.95805		
+67	Did not pass any selected query	195.07636		
+68	Did not pass any selected query	180.10135		
+69	Did not pass any selected query	159.96842		
+70	NL_Propyl	176.97171		
+72	Did not pass any selected query	130.15909		
+73	Did not pass any selected query	128.95012		
+74	Did not pass any selected query	190.10743		
+75	Did not pass any selected query	158.00257		
+76	Did not pass any selected query	180.10158		
+77	Did not pass any selected query	238.08353		
+78	Did not pass any selected query	266.0781		
+79	SeqNL_carbamate	284.089		
+80	SeqNL_carbamate	589.15265		
+82	SeqNL_carbamate	306.07094		
+83	SeqNL_carbamate	553.15529		
+84	Did not pass any selected query	112.0756		
+85	Did not pass any selected query	210.05217		
+87	SeqNL_carbamate | NL_Propyl	270.07345		
+88	Did not pass any selected query	292.05535		
+89	Did not pass any selected query	117.05438		
+90	Did not pass any selected query	158.96112		
+91	Did not pass any selected query	130.15895		
+93	Did not pass any selected query	158.00245		
+94	Did not pass any selected query	176.97109		
+95	Did not pass any selected query	212.10182		
+96	Did not pass any selected query	141.95818		
+97	Did not pass any selected query	195.07603		
+100	Did not pass any selected query	180.1016		
+101	Did not pass any selected query	224.12794		
+102	Did not pass any selected query	159.96854		
+103	Did not pass any selected query	186.95601		
+104	Did not pass any selected query	114.09111		
+105	Did not pass any selected query	195.07627		
+106	Did not pass any selected query	120.02871		
+107	Did not pass any selected query	212.10164		
+109	Did not pass any selected query	235.1183		
+111	Did not pass any selected query	102.01836		
+112	Did not pass any selected query	184.05792		
+113	Did not pass any selected query	144.06546		
+114	Did not pass any selected query	162.07576		
+115	Did not pass any selected query	206.03972		
+117	Did not pass any selected query	180.10154		
+118	Did not pass any selected query	141.95818		
+119	Did not pass any selected query	355.1261		
+121	Did not pass any selected query	195.07577		
+122	Did not pass any selected query	195.07677		
+123	Did not pass any selected query	224.12819		
+124	Did not pass any selected query	159.96853		
+125	Did not pass any selected query	355.12661		
+126	Did not pass any selected query	128.95034		
+127	Did not pass any selected query	141.95823		
+129	Did not pass any selected query	317.07869		
+130	SeqNL_carbamate	465.62799		
+131	SeqNL_carbamate | NL_Propyl	298.10515		
+132	Did not pass any selected query	649.12012		
+133	SeqNL_carbamate	909.32691		
+135	Did not pass any selected query	210.05242		
+136	Did not pass any selected query	252.0994		
+137	Did not pass any selected query	256.0579		
+138	Did not pass any selected query	270.11006		
+141	Did not pass any selected query	612.22947		
+142	SeqNL_carbamate	914.28181		
+144	Did not pass any selected query	238.04733		
+145	Did not pass any selected query	280.09433		
+147	SeqNL_carbamate	595.20281		
+148	NL_Propyl	166.06257		
+149	Did not pass any selected query	633.15128		
+150	Did not pass any selected query	196.0002		
+152	SeqNL_carbamate	617.18422		
+153	SeqNL_carbamate	892.30022		
+154	SeqNL_carbamate	930.24721		
+155	Did not pass any selected query	124.01556		
+157	SeqNL_carbamate | NL_Propyl	320.08678		
+160	Did not pass any selected query	326.08422		
+161	Did not pass any selected query	415.03229		
+162	Did not pass any selected query	128.10678		
+163	SeqNL_carbamate	581.18688		
+167	Did not pass any selected query	180.10113		
+168	Did not pass any selected query	284.08913		
+170	Did not pass any selected query	190.107		
+171	NL_Propyl	158.96167		
+172	Did not pass any selected query	235.11802		
+174	SeqNL_carbamate	261.12322		
+175	Did not pass any selected query	158.00247		
+176	Did not pass any selected query	117.05429		
+178	Did not pass any selected query	159.9685		
+179	Did not pass any selected query	141.95871		
+180	Did not pass any selected query	180.1015		
+181	Did not pass any selected query	195.07627		
+182	Did not pass any selected query	212.10176		
+183	Did not pass any selected query	141.95771		
+185	Did not pass any selected query	159.96868		
+186	Did not pass any selected query	158.96122		
+187	Did not pass any selected query	258.08867		
+188	Did not pass any selected query	186.95565		
+190	Did not pass any selected query	80.04901		
+191	Did not pass any selected query	176.97119		
+192	Did not pass any selected query	180.10186		
+193	Did not pass any selected query	212.06782		
+194	SeqNL_carbamate | NL_Propyl	254.11508		
+195	Did not pass any selected query	186.95587		
+196	Did not pass any selected query	195.07642		
+197	Did not pass any selected query	158.96154		
+198	Did not pass any selected query	190.10691		
+199	Did not pass any selected query	186.95599		
+200	Did not pass any selected query	182.08055		
+202	Did not pass any selected query	304.03637		
+204	Did not pass any selected query	185.1171		
+205	Did not pass any selected query	186.95577		
+206	SeqNL_carbamate	334.10212		
+208	SeqNL_carbamate | NL_Propyl	312.1203		
+209	SeqNL_carbamate	631.19976		
+210	Did not pass any selected query	256.05765		
+212	Did not pass any selected query	124.01551		
+214	Did not pass any selected query	210.05232		
+215	SeqNL_carbamate | NL_Propyl	298.10478		
+216	SeqNL_carbamate | NL_Propyl	320.08673		
+217	Did not pass any selected query	326.08374		
+221	Did not pass any selected query	238.04718		
+222	SeqNL_carbamate	595.20257		
+223	SeqNL_carbamate	633.15092		
+224	SeqNL_carbamate	892.29975		
+225	SeqNL_carbamate	617.18416		
+226	Did not pass any selected query	914.28119		
+227	Did not pass any selected query	196.00026		
+228	Did not pass any selected query	228.06273		
+232	Did not pass any selected query	465.62727		
+235	Did not pass any selected query	195.07643		
+236	Did not pass any selected query	212.10189		
+238	Did not pass any selected query	185.11469		
+239	Did not pass any selected query	163.13277		
+240	Did not pass any selected query	261.12296		
+241	Did not pass any selected query	269.18566		
+242	Did not pass any selected query	141.95806		
+244	Did not pass any selected query	235.11825	Cyclo(-His-Pro) [M+H]+	CCMSLIB00010133243
+245	Did not pass any selected query	186.95543		
+246	Did not pass any selected query	80.04892		
+248	SeqNL_carbamate	312.12039		
+250	Did not pass any selected query	276.06271		
+251	SeqNL_carbamate	362.09954		
+252	Did not pass any selected query	384.08174		
+253	Did not pass any selected query	258.05232		
+255	Did not pass any selected query	182.08052		
+256	NL_Propyl	117.05439		
+257	Did not pass any selected query	158.96159		
+258	NL_Propyl	117.05435		
+259	SeqNL_carbamate	261.12288		
+260	Did not pass any selected query	158.96131		
+261	Did not pass any selected query	180.10107		
+262	Did not pass any selected query	174.18478		
+263	Did not pass any selected query	218.21098		
+264	Did not pass any selected query	284.08907		
+265	SeqNL_carbamate	370.09962		
+266	Did not pass any selected query	80.04896		
+267	Did not pass any selected query	186.95551		
+268	Did not pass any selected query	143.10639		
+269	NL_Propyl	207.12361		
+270	Did not pass any selected query	212.1023		
+271	SeqNL_carbamate	370.0995		
+274	SeqNL_carbamate | NL_Propyl	326.13602		
+275	SeqNL_carbamate | NL_Propyl	348.11801		
+276	SeqNL_carbamate	673.24546		
+278	Did not pass any selected query	180.10111		
+279	Did not pass any selected query	212.10086		
+280	Did not pass any selected query	158.96111		
+281	Did not pass any selected query	234.20597		
+282	Did not pass any selected query	180.10171		
+283	Did not pass any selected query	234.20615		
+286	Did not pass any selected query	130.04944		
+287	Did not pass any selected query	143.1066		
+288	Did not pass any selected query	190.107		
+289	Did not pass any selected query	212.08924		
+290	Did not pass any selected query	144.06499		
+291	Did not pass any selected query	186.95569		
+293	Did not pass any selected query	384.11509		
+295	Did not pass any selected query	212.10316		
+297	Did not pass any selected query	238.04717		
+298	Did not pass any selected query	270.10993		
+299	Did not pass any selected query	280.09435		
+300	SeqNL_carbamate	359.12611		
+301	SeqNL_carbamate	528.69841		
+306	SeqNL_carbamate	717.24613		
+307	SeqNL_carbamate	679.29687		
+308	SeqNL_carbamate	701.27863		
+309	SeqNL_carbamate	1040.42132		
+310	SeqNL_carbamate	1056.38846		
+311	SeqNL_carbamate	1062.40437		
+312	NL_Propyl	252.0995		
+313	Did not pass any selected query	298.10476		
+314	SeqNL_carbamate | NL_Propyl	340.15224		
+315	Did not pass any selected query	378.1072		
+316	SeqNL_carbamate | NL_Propyl	362.13382		
+319	Did not pass any selected query	368.13081		
+320	SeqNL_carbamate	723.26041		
+321	Did not pass any selected query	212.10196		
+322	Did not pass any selected query	384.11593		
+323	Did not pass any selected query	180.10193		
+324	Did not pass any selected query	117.05438		
+325	Did not pass any selected query	182.08106		
+326	SeqNL_carbamate	723.26022		
+327	Did not pass any selected query	180.10145		
+328	Did not pass any selected query	190.10668		
+329	Did not pass any selected query	261.12291		
+331	SeqNL_carbamate | NL_Propyl	326.13582		
+332	SeqNL_carbamate	348.11791		
+334	Did not pass any selected query	235.11826		
+335	Did not pass any selected query	80.04898		
+336	Did not pass any selected query	117.05428		
+337	Did not pass any selected query	202.21618		
+338	Did not pass any selected query	213.14627		
+339	Did not pass any selected query	246.24255		
+340	Did not pass any selected query	163.11476		
+341	Did not pass any selected query	186.13018		
+342	NL_Propyl	124.03842		
+343	NL_Propyl	180.10116		
+345	Did not pass any selected query	384.11552		
+347	Did not pass any selected query	294.14614		
+348	SeqNL_carbamate | NL_Propyl	340.15164		
+349	Did not pass any selected query	357.17833		
+350	SeqNL_carbamate | NL_Propyl	362.1337		
+352	SeqNL_carbamate	679.29645		
+353	SeqNL_carbamate	696.32259		
+354	SeqNL_carbamate	701.27797		
+355	SeqNL_carbamate	298.10461		
+356	Did not pass any selected query	322.14079		
+359	NL_Propyl	117.05428		
+360	Did not pass any selected query	195.07618		
+361	Did not pass any selected query	190.10743		
+362	Did not pass any selected query	80.04895		
+363	Did not pass any selected query	212.10103		
+364	Did not pass any selected query	212.09051		
+365	Did not pass any selected query	195.07613		
+366	Did not pass any selected query	182.07851		
+369	Did not pass any selected query	117.05438		
+370	Did not pass any selected query	212.10089		
+371	Did not pass any selected query	235.11817		
+374	Did not pass any selected query	324.65469		
+376	Did not pass any selected query	481.16203		
+378	Did not pass any selected query	102.01824		
+381	Did not pass any selected query	144.06517		
+382	Did not pass any selected query	162.07564		
+383	SeqNL_carbamate | NL_Propyl	204.12268		
+384	Did not pass any selected query	226.10461		
+386	Did not pass any selected query	244.11505		
+388	Did not pass any selected query	429.22026		
+389	Did not pass any selected query	221.14907		
+390	Did not pass any selected query	284.06355		
+391	NL_Propyl	362.13326		
+392	Did not pass any selected query	195.07579		
+393	Did not pass any selected query	180.10144		
+395	Did not pass any selected query	261.1229		
+396	Did not pass any selected query	87.04361		
+400	Did not pass any selected query	294.14599		
+401	Did not pass any selected query	298.10417		
+403	SeqNL_carbamate | NL_Propyl	340.15153		
+404	SeqNL_carbamate | NL_Propyl	362.1334		
+405	Did not pass any selected query	384.1147		
+406	SeqNL_carbamate	701.27613		
+407	Did not pass any selected query	212.09989		
+409	Did not pass any selected query	91.03863		
+410	Did not pass any selected query	80.04896		
+411	Did not pass any selected query	313.17641		
+413	NL_Propyl	195.07613		
+415	Did not pass any selected query	304.24809		
+416	SeqNL_carbamate	340.15211		
+417	Did not pass any selected query	261.12289		
+418	Did not pass any selected query	212.09084		
+421	Did not pass any selected query	156.06305		
+422	Did not pass any selected query	137.10676		
+423	Did not pass any selected query	212.12533		
+424	Did not pass any selected query	162.07569		
+425	Did not pass any selected query	137.10694		
+427	Did not pass any selected query	162.07551		
+428	Did not pass any selected query	195.0762		
+429	NL_Propyl	102.01831		
+430	Did not pass any selected query	117.05425		
+431	Did not pass any selected query	158.15344		
+432	Did not pass any selected query	235.11804		
+433	Did not pass any selected query	261.12308		
+434	Did not pass any selected query	137.10683		
+435	Did not pass any selected query	195.07566		
+436	Did not pass any selected query	137.10679		
+437	Did not pass any selected query	80.04891		
+438	Did not pass any selected query	124.08659		
+439	NL_Propyl	195.07587		
+440	Did not pass any selected query	118.08587		
+441	Did not pass any selected query	117.05419		
+442	Did not pass any selected query	240.11995		
+444	Did not pass any selected query	274.27405		
+445	Did not pass any selected query	137.10696		
+446	NL_Propyl	195.07603		
+448	Did not pass any selected query	158.96278		
+449	Did not pass any selected query	240.08396		
+450	Did not pass any selected query	183.06217		
+451	Did not pass any selected query	274.27363		
+452	Did not pass any selected query	169.08313		
+453	Did not pass any selected query	218.1018		
+454	NL_Propyl	105.05435		
+455	NL_Propyl	147.10119		
+457	Did not pass any selected query	195.07612		
+458	Did not pass any selected query	123.06474		
+459	Did not pass any selected query	81.01765		
+460	Did not pass any selected query	117.05423		
+462	Did not pass any selected query	137.10672		
+463	Did not pass any selected query	144.06523		
+464	SeqNL_carbamate	261.12302		
+465	NL_Propyl	290.26844		
+466	NL_Propyl	172.13279		
+468	Did not pass any selected query	137.10672		
+469	Did not pass any selected query	195.07621		
+471	Did not pass any selected query	164.10634		
+472	Did not pass any selected query	212.09039		
+473	Did not pass any selected query	80.04895		
+474	Did not pass any selected query	324.17781		
+475	Did not pass any selected query	182.08082		
+477	Did not pass any selected query	172.16939		
+479	Did not pass any selected query	117.05424		
+480	Did not pass any selected query	124.0869		
+481	Did not pass any selected query	195.07586		
+482	Did not pass any selected query	137.10685		
+483	Did not pass any selected query	261.12304		
+485	Did not pass any selected query	212.09048		
+486	Did not pass any selected query	195.07639		
+487	SeqNL_carbamate | NL_Propyl	368.18308		
+488	SeqNL_carbamate	390.16484		
+489	Did not pass any selected query	204.12298		
+490	Did not pass any selected query	284.86989		
+491	Did not pass any selected query	137.10705		
+492	NL_Propyl	101.07071		
+493	Did not pass any selected query	212.09022		
+495	Did not pass any selected query	117.05437		
+496	Did not pass any selected query	124.0864		
+498	Did not pass any selected query	130.08573		
+499	Did not pass any selected query	195.07604		
+500	Did not pass any selected query	80.04894		
+501	Did not pass any selected query	353.16792		
+502	Did not pass any selected query	137.10695		
+503	Did not pass any selected query	204.12269		
+504	SeqNL_carbamate	313.17514		
+505	Did not pass any selected query	195.07596		
+506	Did not pass any selected query	204.1226		
+508	NL_Propyl	101.07054		
+509	SeqNL_carbamate	313.17541		
+510	Did not pass any selected query	117.05423		
+512	NL_Propyl	101.07073		
+513	Did not pass any selected query	204.12267		
+514	Did not pass any selected query	253.17735		
+516	Did not pass any selected query	284.86973		
+517	Did not pass any selected query	124.0868		
+518	Did not pass any selected query	157.12177		
+519	Did not pass any selected query	175.13268		
+521	Did not pass any selected query	261.12301		
+522	Did not pass any selected query	434.15459		
+523	Did not pass any selected query	195.076		
+524	Did not pass any selected query	124.0866		
+525	Did not pass any selected query	294.14537		
+526	Did not pass any selected query	101.07022		
+527	Did not pass any selected query	322.14132		
+528	Did not pass any selected query	340.15121		
+529	SeqNL_carbamate | NL_Propyl	382.19849		
+530	SeqNL_carbamate | NL_Propyl	404.18045		
+531	SeqNL_carbamate	785.3714		
+532	Did not pass any selected query	420.15407		
+533	Did not pass any selected query	124.08649		
+535	Did not pass any selected query	137.10695		
+536	Did not pass any selected query	212.09144		
+537	Did not pass any selected query	80.04885		
+538	NL_Propyl	101.0708		
+539	Did not pass any selected query	124.08649		
+540	Did not pass any selected query	261.12305		
+541	Did not pass any selected query	382.19916		
+542	NL_Propyl	101.07065		
+543	Did not pass any selected query	235.11815		
+544	Did not pass any selected query	195.0761		
+545	Did not pass any selected query	226.10458		
+547	Did not pass any selected query	284.86949		
+548	Did not pass any selected query	158.96347		
+549	Did not pass any selected query	137.10699		
+550	Did not pass any selected query	80.04903		
+551	NL_Propyl	101.07063		
+552	Did not pass any selected query	124.08663		
+553	Did not pass any selected query	204.12263		
+555	Did not pass any selected query	117.05417		
+558	NL_Propyl	117.054		
+559	Did not pass any selected query	284.8698		
+560	Did not pass any selected query	80.04894		
+561	SeqNL_carbamate | NL_Propyl	340.15162		
+562	Did not pass any selected query	252.0996		
+563	Did not pass any selected query	280.09426		
+564	SeqNL_carbamate	448.17052		
+565	SeqNL_carbamate	322.14113		
+566	Did not pass any selected query	464.1444		
+567	Did not pass any selected query	238.04718		
+568	Did not pass any selected query	210.05255		
+569	Did not pass any selected query	80.04888		
+570	Did not pass any selected query	124.08647		
+571	Did not pass any selected query	101.07059		
+572	Did not pass any selected query	154.08558		
+573	Did not pass any selected query	240.12263		
+574	Did not pass any selected query	253.17713		
+576	Did not pass any selected query	157.12207		
+577	Did not pass any selected query	175.13261		
+578	Did not pass any selected query	212.09105		
+579	Did not pass any selected query	226.10481		
+580	Did not pass any selected query	308.111		
+582	Did not pass any selected query	284.8693		
+583	Did not pass any selected query	235.11823		
+584	Did not pass any selected query	124.08637		
+585	Did not pass any selected query	226.95132		
+586	Did not pass any selected query	235.11819		
+587	Did not pass any selected query	124.03703		
+588	Did not pass any selected query	195.07621		
+589	Did not pass any selected query	124.08694		
+590	Did not pass any selected query	284.86993		
+591	Did not pass any selected query	226.10434		
+592	Did not pass any selected query	80.04903		
+593	Did not pass any selected query	117.05447		
+594	Did not pass any selected query	117.05452		
+595	Did not pass any selected query	235.11801		
+596	Did not pass any selected query	284.86996		
+597	Did not pass any selected query	124.0867		
+598	SeqNL_carbamate	212.09153		
+599	Did not pass any selected query	226.95113		
+600	Did not pass any selected query	261.12312		
+601	Did not pass any selected query	117.05427		
+602	Did not pass any selected query	124.08671		
+603	Did not pass any selected query	195.07572		
+604	Did not pass any selected query	226.9515		
+605	Did not pass any selected query	226.95129		
+606	Did not pass any selected query	137.107		
+607	Did not pass any selected query	212.09016		
+608	Did not pass any selected query	117.05421		
+609	Did not pass any selected query	332.33073		
+611	NL_Propyl	101.07075		
+612	Did not pass any selected query	261.12334		
+616	NL_Propyl	207.12359		
+617	Did not pass any selected query	226.95116		
+618	Did not pass any selected query	212.09085		
+619	Did not pass any selected query	235.11825		
+620	NL_Propyl	124.08664		
+621	SeqNL_carbamate	313.16194		
+622	Did not pass any selected query	187.13264		
+623	Did not pass any selected query	329.13554		
+624	NL_Propyl	101.07064		
+625	NL_Propyl	166.09707		
+627	Did not pass any selected query	80.04884		
+628	Did not pass any selected query	235.11858		
+629	Did not pass any selected query	212.091		
+630	Did not pass any selected query	195.07646		
+631	Did not pass any selected query	117.05456		
+632	Did not pass any selected query	137.10698		
+633	Did not pass any selected query	212.09065		
+634	Did not pass any selected query	226.95121		
+635	Did not pass any selected query	235.11878		
+636	SeqNL_carbamate	261.12307		
+637	Did not pass any selected query	284.87024		
+639	Did not pass any selected query	212.09032		
+640	Did not pass any selected query	117.05425		
+641	Did not pass any selected query	212.0904		
+642	Did not pass any selected query	235.11848		
+643	NL_Propyl	166.09694		
+645	Did not pass any selected query	83.08513		
+646	Did not pass any selected query	269.17182		
+647	Did not pass any selected query	235.11832		
+648	Did not pass any selected query	117.05433		
+650	NL_Propyl	212.09043		
+651	Did not pass any selected query	158.96376		
+652	Did not pass any selected query	253.14094		
+653	NL_Propyl	166.09682		
+654	Did not pass any selected query	226.95123		
+655	Did not pass any selected query	158.96305		
+656	Did not pass any selected query	185.04148		
+657	NL_Propyl	212.09092		
+658	Did not pass any selected query	360.36234		
+659	NL_Propyl	166.09679		
+660	Did not pass any selected query	80.04931		
+662	NL_Propyl	101.07074		
+663	Did not pass any selected query	108.51742		
+664	Did not pass any selected query	117.0543		
+665	Did not pass any selected query	124.08669		
+666	Did not pass any selected query	137.10697		
+667	Did not pass any selected query	226.95117		
+668	Did not pass any selected query	235.11849		
+669	Did not pass any selected query	261.12324		
+670	Did not pass any selected query	195.07638		
+672	Did not pass any selected query	185.04203		
+673	NL_Propyl	166.09711		
+674	Did not pass any selected query	212.09042		
+675	Did not pass any selected query	313.17614		
+676	SeqNL_carbamate	261.12337		
+677	Did not pass any selected query	124.08666		
+678	Did not pass any selected query	235.11835		
+679	Did not pass any selected query	137.10696		
+680	Did not pass any selected query	353.19286		
+681	Did not pass any selected query	158.96338		
+682	Did not pass any selected query	117.05376		
+683	Did not pass any selected query	212.09085		
+684	Did not pass any selected query	231.15856		
+685	Did not pass any selected query	235.11832		
+686	Did not pass any selected query	185.04173		
+687	NL_Propyl	309.20334		
+688	NL_Propyl	166.09704		
+689	Did not pass any selected query	213.14823		
+690	NL_Propyl	207.12389		
+691	Did not pass any selected query	185.0414		
+692	NL_Propyl	101.07064		
+694	Did not pass any selected query	226.95113		
+696	Did not pass any selected query	90.97618		
+697	Did not pass any selected query	108.51776		
+698	Did not pass any selected query	261.1232		
+700	Did not pass any selected query	129.09076		
+701	NL_Propyl	207.12341		
+702	Did not pass any selected query	158.96391		
+704	Did not pass any selected query	212.09004		
+705	Did not pass any selected query	90.97664		
+706	NL_Propyl	207.12381		
+707	Did not pass any selected query	158.96401		
+708	NL_Propyl	166.09628		
+709	Did not pass any selected query	185.04175		
+710	Did not pass any selected query	309.20386		
+711	Did not pass any selected query	90.97635		
+712	Did not pass any selected query	158.96318		
+713	Did not pass any selected query	117.05443		
+714	Did not pass any selected query	90.97642		
+715	Did not pass any selected query	108.51745		
+716	Did not pass any selected query	158.96375		
+717	Did not pass any selected query	185.04172		
+718	Did not pass any selected query	137.10696		
+719	Did not pass any selected query	157.12163		
+720	Did not pass any selected query	339.21356		
+721	Did not pass any selected query	455.27273		
+722	NL_Propyl	166.09708		
+723	NL_Propyl	207.12367		
+725	Did not pass any selected query	261.12272		
+727	Did not pass any selected query	108.51791		
+729	Did not pass any selected query	157.1219		
+730	Did not pass any selected query	90.97633		
+731	Did not pass any selected query	295.22417		
+732	NL_Propyl	207.12407		
+733	Did not pass any selected query	212.09014		
+734	Did not pass any selected query	217.1797		
+735	Did not pass any selected query	273.2418		
+736	NL_Propyl	166.09656		
+737	Did not pass any selected query	108.51764		
+738	NL_Propyl	101.0707		
+739	Did not pass any selected query	195.07675		
+740	Did not pass any selected query	353.26596		
+742	NL_Propyl	166.09696		
+743	Did not pass any selected query	282.27858		
+745	Did not pass any selected query	108.51717		
+746	Did not pass any selected query	217.17957		
+747	Did not pass any selected query	161.11674		
+748	NL_Propyl	207.12383		
+749	Did not pass any selected query	212.0897		
+750	Did not pass any selected query	185.04151		
+751	Did not pass any selected query	124.08667		
+752	Did not pass any selected query	108.51754		
+754	NL_Propyl	166.09713		
+755	Did not pass any selected query	90.97643		
+756	Did not pass any selected query	185.04179		
+757	Did not pass any selected query	108.51751		
+758	NL_Propyl	101.07068		
+759	Did not pass any selected query	261.12269		
+762	Did not pass any selected query	137.10695		
+763	Did not pass any selected query	108.51712		
+764	Did not pass any selected query	295.22381		
+766	Did not pass any selected query	158.96307		
+769	NL_Propyl	207.12365		
+770	Did not pass any selected query	158.96381		
+772	Did not pass any selected query	199.169		
+774	Did not pass any selected query	157.12207		
+775	Did not pass any selected query	217.1795		
+776	Did not pass any selected query	273.24226		
+777	Did not pass any selected query	185.04181		
+778	Did not pass any selected query	295.22419		
+779	Did not pass any selected query	226.95115		
+780	Did not pass any selected query	143.10631		
+781	Did not pass any selected query	161.11687		
+782	Did not pass any selected query	212.08959		
+785	NL_Propyl	166.09708		
+787	Did not pass any selected query	212.08999		
+788	Did not pass any selected query	185.04175		
+789	NL_Propyl	207.12368		
+790	Did not pass any selected query	226.17983		
+792	Did not pass any selected query	244.19066		
+793	Did not pass any selected query	408.30832		
+794	Did not pass any selected query	424.28184		
+795	Did not pass any selected query	221.17449		
+796	Did not pass any selected query	250.17744		
+798	Did not pass any selected query	124.08667		
+800	NL_Propyl	207.12443		
+801	NL_Propyl	166.0976		
+802	Did not pass any selected query	151.12262		
+803	Did not pass any selected query	158.96351		
+804	Did not pass any selected query	244.19057		
+805	Did not pass any selected query	221.1748		
+806	Did not pass any selected query	408.30822		
+808	Did not pass any selected query	424.28231		
+812	Did not pass any selected query	137.10703		
+814	NL_Propyl	101.07079		
+815	NL_Propyl	207.12382		
+817	Did not pass any selected query	185.04197		
+818	Did not pass any selected query	430.91357		
+820	Did not pass any selected query	381.29758		
+821	Did not pass any selected query	151.12223		
+823	NL_Propyl	207.12375		
+824	Did not pass any selected query	226.95117		
+825	Did not pass any selected query	151.12299		
+826	NL_Propyl	166.09723		
+827	Did not pass any selected query	158.96378		
+829	Did not pass any selected query	216.92228		
+830	NL_Propyl	207.1236		
+831	Did not pass any selected query	151.12283		
+832	Did not pass any selected query	185.04162		
+834	Did not pass any selected query	185.04208		
+835	Did not pass any selected query	430.91338		
+836	Did not pass any selected query	129.12695		
+837	Did not pass any selected query	203.20019		
+838	Did not pass any selected query	111.1166		
+839	Did not pass any selected query	147.13772		
+840	Did not pass any selected query	259.26317		
+841	Did not pass any selected query	151.12242		
+842	NL_Propyl	207.12377		
+843	Did not pass any selected query	281.24503		
+844	Did not pass any selected query	151.12331		
+847	Did not pass any selected query	362.92604		
+848	Did not pass any selected query	498.90068		
+849	Did not pass any selected query	566.88727		
+853	Did not pass any selected query	185.0418		
+854	Did not pass any selected query	80.94751		
+857	Did not pass any selected query	151.12255		
+859	Did not pass any selected query	294.93805		
+861	NL_Propyl	207.12384		
+862	Did not pass any selected query	184.88833		
+865	Did not pass any selected query	294.93826		
+871	Did not pass any selected query	184.88863		
+872	Did not pass any selected query	634.87526		
+873	Did not pass any selected query	164.11816		
+874	Did not pass any selected query	702.8625		
+878	Did not pass any selected query	151.12267		
+879	Did not pass any selected query	185.04184		
+880	Did not pass any selected query	325.23509		
+884	Did not pass any selected query	697.65796		
+886	NL_Propyl	338.3416	Spectral Match to 13-Docosenamide, (Z)- from NIST14 [M+H]+	CCMSLIB00003136830
+887	Did not pass any selected query	212.08943		
+888	Did not pass any selected query	250.17756		
+889	Did not pass any selected query	284.18305		
+891	Did not pass any selected query	360.32342		
+893	Did not pass any selected query	413.26611		
+894	Did not pass any selected query	144.98182		
+895	Did not pass any selected query	391.28372		
+899	Did not pass any selected query	634.87496		
+901	Did not pass any selected query	185.04161		
+905	Did not pass any selected query	488.87161		
+907	Did not pass any selected query	212.08912		
+908	Did not pass any selected query	498.90057		
+911	Did not pass any selected query	556.85944		
+914	NL_Propyl	207.12366		
+915	Did not pass any selected query	488.8715		
+918	NL_Propyl	166.09722		
+919	Did not pass any selected query	430.91315		
+923	Did not pass any selected query	566.88797		
+924	Did not pass any selected query	362.92593		
+927	Did not pass any selected query	628.37399		
+930	Did not pass any selected query	144.98159		
+934	Did not pass any selected query	556.85919		
+936	Did not pass any selected query	226.9511		
+937	Did not pass any selected query	420.88457		
+938	Did not pass any selected query	419.31257		
+940	Did not pass any selected query	164.11787		
+941	Did not pass any selected query	216.92228		
+942	Did not pass any selected query	218.91941		
+943	Did not pass any selected query	624.84657		
+944	Did not pass any selected query	124.08665		
+946	Did not pass any selected query	144.98168		
+948	Did not pass any selected query	420.8845		
+951	Did not pass any selected query	242.92531		
+952	Did not pass any selected query	352.89706		
+953	Did not pass any selected query	185.04176		
+954	Did not pass any selected query	284.90951		
+955	Did not pass any selected query	457.32605		
+958	NL_Propyl	101.07069		
+959	Did not pass any selected query	137.10697		
+960	Did not pass any selected query	243.94086		
+961	Did not pass any selected query	340.35701		
+962	Did not pass any selected query	151.12262		
+968	Did not pass any selected query	112.0753		
+969	Did not pass any selected query	164.11786		
+970	Did not pass any selected query	212.08901		
+972	Did not pass any selected query	469.32815		
+975	NL_Propyl	166.09691		
+976	NL_Propyl	101.07067		
+980	Did not pass any selected query	459.34373		
+981	Did not pass any selected query	243.94075		
+982	Did not pass any selected query	294.93851		
+983	NL_Propyl	207.12367		
+985	Did not pass any selected query	517.34691		
+986	Did not pass any selected query	427.37757		
+987	Did not pass any selected query	449.35977		
+988	Did not pass any selected query	875.72934		
+989	Did not pass any selected query	226.95106		
+990	Did not pass any selected query	185.04154		
+994	Did not pass any selected query	352.89727		
+995	Did not pass any selected query	170.04193		
+996	Did not pass any selected query	216.92231		
+997	Did not pass any selected query	112.07541		
+998	Did not pass any selected query	158.96364		
+999	NL_Propyl	166.09695		
+1005	Did not pass any selected query	362.92578		
+1010	Did not pass any selected query	144.98179		
+1012	Did not pass any selected query	112.07543		
+1015	Did not pass any selected query	485.35724		
+1020	Did not pass any selected query	553.34461		
+1021	NL_Propyl	207.1237		
+1022	Did not pass any selected query	216.92241		
+1024	Did not pass any selected query	212.08899		
+1026	Did not pass any selected query	488.87186		
+1027	Did not pass any selected query	218.91951		
+1028	Did not pass any selected query	498.90089		
+1030	Did not pass any selected query	164.11784		
+1031	Did not pass any selected query	151.12263		
+1032	Did not pass any selected query	284.90992		
+1033	Did not pass any selected query	185.04153		
+1034	Did not pass any selected query	661.53713		
+1037	Did not pass any selected query	488.87178		
+1040	Did not pass any selected query	137.10695		
+1044	Did not pass any selected query	124.08673		
+1046	NL_Propyl	112.07536		
+1048	Did not pass any selected query	164.11795		
+1049	Did not pass any selected query	294.93853		
+1051	Did not pass any selected query	309.20379		
+1054	Did not pass any selected query	352.89708		
+1056	NL_Propyl	101.07068		
+1057	Did not pass any selected query	129.06552		
+1063	Did not pass any selected query	634.87523		
+1064	Did not pass any selected query	158.96369		
+1066	Did not pass any selected query	212.08902		
+1068	Did not pass any selected query	151.12265		
+1070	Did not pass any selected query	661.53688		
+1073	Did not pass any selected query	158.96367		
+1074	NL_Propyl	207.12385		
+1076	Did not pass any selected query	420.88466		
+1077	Did not pass any selected query	185.04157		
+1079	NL_Propyl	166.09704		
+1080	Did not pass any selected query	566.88799		
+1084	Did not pass any selected query	170.04192		
+1089	Did not pass any selected query	243.94115		
+1090	Did not pass any selected query	294.93845		
+1092	Did not pass any selected query	498.90053		
+1093	Did not pass any selected query	610.18368		
+1095	Did not pass any selected query	124.08666		
+1097	Did not pass any selected query	556.85909		
+1098	Did not pass any selected query	624.84683		
+1099	NL_Propyl	207.12361		
+1100	Did not pass any selected query	430.91324		
+1101	Did not pass any selected query	566.88785		
+1103	Did not pass any selected query	294.93845		
+1104	Did not pass any selected query	352.89703		
+1107	Did not pass any selected query	702.8627		
+1110	Did not pass any selected query	158.96363		
+1111	Did not pass any selected query	243.94113		
+1113	Did not pass any selected query	556.85948		
+1114	NL_Propyl	151.12267		
+1115	Did not pass any selected query	226.95111		
+1117	NL_Propyl	166.0971		
+1119	Did not pass any selected query	83.05989		
+1121	Did not pass any selected query	185.04168		
+1125	Did not pass any selected query	488.87194		
+1126	Did not pass any selected query	763.51596		
+1128	Did not pass any selected query	284.91014		
+1129	Did not pass any selected query	556.85879		
+1131	Did not pass any selected query	685.43481		
+1134	Did not pass any selected query	624.84698		
+1135	Did not pass any selected query	634.87512		
+1137	Did not pass any selected query	112.07534		
+1138	Did not pass any selected query	702.86207		
+1139	Did not pass any selected query	352.89708		
+1141	Did not pass any selected query	158.96368		
+1142	Did not pass any selected query	362.92596		
+1143	Did not pass any selected query	692.83344		
+1146	Did not pass any selected query	284.90976		
+1149	NL_Propyl	129.06552		
+1150	Did not pass any selected query	107.96642		
+1153	Did not pass any selected query	566.88777		
+1154	NL_Propyl	124.08664		
+1155	Did not pass any selected query	212.08881		
+1158	Did not pass any selected query	702.86202		
+1160	Did not pass any selected query	107.96646		
+1161	Did not pass any selected query	556.85907		
+1164	Did not pass any selected query	284.90971		
+1166	Did not pass any selected query	151.1226		
+1169	Did not pass any selected query	164.11787		
+1171	Did not pass any selected query	218.91952		
+1172	Did not pass any selected query	352.89698		
+1174	Did not pass any selected query	362.9259		
+1176	Did not pass any selected query	634.87489		
+1178	Did not pass any selected query	488.87166		
+1179	Did not pass any selected query	185.04154		
+1181	Did not pass any selected query	556.85924		
+1183	Did not pass any selected query	430.91324		
+1184	Did not pass any selected query	206.89342		
+1190	Did not pass any selected query	420.88427		
+1191	Did not pass any selected query	702.86272		
+1193	Did not pass any selected query	284.90974		
+1194	Did not pass any selected query	352.89716		
+1196	Did not pass any selected query	212.0889		
+1198	Did not pass any selected query	689.53195		
+1199	NL_Propyl	207.12365		
+1200	Did not pass any selected query	566.88792		
+1201	Did not pass any selected query	614.81785		
+1204	Did not pass any selected query	112.07532		
+1205	Did not pass any selected query	362.92594		
+1207	Did not pass any selected query	284.90908		
+1208	Did not pass any selected query	702.86322		
+1211	Did not pass any selected query	634.875		
+1216	Did not pass any selected query	692.8343		
+1217	Did not pass any selected query	702.86124		
+1219	NL_Propyl	137.10697		
+1220	Did not pass any selected query	151.12268		
+1225	NL_Propyl	166.09715		
+1226	Did not pass any selected query	216.92233		
+1229	NL_Propyl	179.11751		
+1230	Did not pass any selected query	218.91948		
+1231	Did not pass any selected query	111.09143		
+1235	NL_Propyl	165.10212		
+1239	Did not pass any selected query	410.85578		
+1242	NL_Propyl	101.07071		
+1243	Did not pass any selected query	124.08665		
+1247	Did not pass any selected query	185.04164		
+1248	Did not pass any selected query	556.85858		
+1253	Did not pass any selected query	488.87162		
+1256	Did not pass any selected query	294.93856		
+1261	Did not pass any selected query	634.87546		
+1264	Did not pass any selected query	226.95113		
+1265	Did not pass any selected query	566.88786		
+1266	Did not pass any selected query	668.86957		
+1267	Did not pass any selected query	736.85688		
+1268	Did not pass any selected query	770.85012		
+1269	Did not pass any selected query	804.84413		
+1270	Did not pass any selected query	838.83764		
+1272	Did not pass any selected query	906.82428		
+1273	Did not pass any selected query	430.91332		
+1274	Did not pass any selected query	498.90059		
+1275	Did not pass any selected query	702.86252		
+1277	Did not pass any selected query	974.81212		
+1278	Did not pass any selected query	158.96374		
+1280	Did not pass any selected query	362.92601		
+1281	Did not pass any selected query	90.97642		
+1282	Did not pass any selected query	242.92493		
+1283	Did not pass any selected query	151.1227		
+1286	Did not pass any selected query	144.98159		
+1290	Did not pass any selected query	212.09009		
+1297	Did not pass any selected query	106.01469		
+1300	Did not pass any selected query	161.96905		
+1302	Did not pass any selected query	108.51745		
+1305	Did not pass any selected query	133.97421		
+1306	Did not pass any selected query	179.97987		
+1308	Did not pass any selected query	97.00955		
+1312	Did not pass any selected query	184.98515		
+1313	Did not pass any selected query	99.51223		
+1315	Did not pass any selected query	115.96377		
+1318	Did not pass any selected query	143.95869		
+1322	Did not pass any selected query	121.9658		
+1325	NL_Propyl	126.96663		
+1328	Did not pass any selected query	88.00402		
+1329	Did not pass any selected query	144.98179		
+1334	Did not pass any selected query	337.85213		
+1335	Did not pass any selected query	284.86973		
+1336	Did not pass any selected query	82.53688		
+1338	Did not pass any selected query	212.10207		
+1339	Did not pass any selected query	321.91243		
+1340	Did not pass any selected query	352.85455		
+1341	Did not pass any selected query	240.90584		
+1342	Did not pass any selected query	258.91641		
+1343	Did not pass any selected query	303.90196		
+1345	Did not pass any selected query	262.88788		
+1346	Did not pass any selected query	375.8704		
+1350	Did not pass any selected query	334.84437		
+1351	Did not pass any selected query	337.88986		
+1356	Did not pass any selected query	82.53688		
+1357	Did not pass any selected query	91.54216		
+1358	Did not pass any selected query	88.02301		
+1360	Did not pass any selected query	128.01891		
+1361	Did not pass any selected query	102.96993		
+1362	Did not pass any selected query	91.54255		
+1363	Did not pass any selected query	110.00845		
+1367	Did not pass any selected query	80.03406		
+1368	Did not pass any selected query	212.10136		
+1369	Did not pass any selected query	99.5312		
+1371	Did not pass any selected query	117.05427		
+1372	Did not pass any selected query	79.01814		
+1375	Did not pass any selected query	80.03422		
+1377	Did not pass any selected query	124.03706		
+1378	Did not pass any selected query	143.99644		
+1379	Did not pass any selected query	90.52597		
+1381	Did not pass any selected query	162.00699		
+1382	Did not pass any selected query	117.05418		
+1383	Did not pass any selected query	125.98591		
+1384	Did not pass any selected query	80.03411		
+1385	Did not pass any selected query	124.03711		
+1386	Did not pass any selected query	158.96126		
+1387	Did not pass any selected query	97.02837		
+1389	Did not pass any selected query	186.95567		
+1390	Did not pass any selected query	195.07584		
+1391	Did not pass any selected query	117.05426		
+1393	Did not pass any selected query	146.02935		
+1394	Did not pass any selected query	128.95051		
+1395	Did not pass any selected query	85.52049		
+1396	Did not pass any selected query	212.10111		
+1397	Did not pass any selected query	261.12316		
+1398	Did not pass any selected query	158.00274		
+1399	Did not pass any selected query	117.0545		
+1400	Did not pass any selected query	137.1069		
+1401	Did not pass any selected query	212.10186		
+1402	Did not pass any selected query	235.11842		
+1405	Did not pass any selected query	99.5311		
+1407	Did not pass any selected query	180.10158		
+1408	Did not pass any selected query	158.00238		
+1410	Did not pass any selected query	137.10723		
+1411	Did not pass any selected query	162.00714		
+1413	SeqNL_carbamate	141.95822		
+1414	Did not pass any selected query	235.11811		
+1415	Did not pass any selected query	80.04902		
+1416	Did not pass any selected query	128.95048		
+1418	Did not pass any selected query	212.10215		
+1419	Did not pass any selected query	235.11774		
+1420	Did not pass any selected query	186.95579		
+1421	Did not pass any selected query	204.1222		
+1423	Did not pass any selected query	158.96103		
+1424	Did not pass any selected query	261.1229	NCGC00384639-01_C14H16N2O3_Pyrrolo[1,2-a]pyrazine-1,4-dione, hexahydro-3-[(4-hydroxyphenyl)methyl]- [M+H]+	CCMSLIB00000850450
+1425	Did not pass any selected query	84.95926		
+1427	NL_Propyl	159.96835		
+1428	Did not pass any selected query	212.10243		
+1429	Did not pass any selected query	97.02862		
+1430	Did not pass any selected query	176.97159		
+1432	Did not pass any selected query	204.12291		
+1433	Did not pass any selected query	176.97163		
+1435	Did not pass any selected query	117.05437		
+1436	Did not pass any selected query	84.95921		
+1438	Did not pass any selected query	261.12287		
+1439	Did not pass any selected query	195.07578		
+1440	Did not pass any selected query	186.95571		
+1441	Did not pass any selected query	125.98602		
+1442	Did not pass any selected query	204.12264		
+1444	Did not pass any selected query	128.95041		
+1445	Did not pass any selected query	158.96096		
+1446	Did not pass any selected query	235.11801		
+1447	Did not pass any selected query	180.10155		
+1448	Did not pass any selected query	195.07616		
+1450	Did not pass any selected query	186.95585		
+1452	Did not pass any selected query	141.95808		
+1454	Did not pass any selected query	125.98581		
+1455	SeqNL_carbamate	212.10211		
+1456	Did not pass any selected query	235.11805		
+1457	Did not pass any selected query	180.10126		
+1458	Did not pass any selected query	204.12251		
+1459	Did not pass any selected query	80.04898		
+1460	SeqNL_carbamate	261.12292		
+1461	Did not pass any selected query	125.98603		
+1462	Did not pass any selected query	128.95046		
+1463	Did not pass any selected query	204.12314		
+1464	Did not pass any selected query	141.9581		
+1465	Did not pass any selected query	176.9715		
+1467	Did not pass any selected query	186.95572		
+1470	Did not pass any selected query	125.98614		
+1471	Did not pass any selected query	117.0544		
+1472	Did not pass any selected query	235.1182		
+1473	Did not pass any selected query	195.07607		
+1474	Did not pass any selected query	180.10162		
+1476	Did not pass any selected query	195.07605		
+1479	Did not pass any selected query	125.98578		
+1480	Did not pass any selected query	128.95042		
+1481	Did not pass any selected query	125.98602		
+1482	Did not pass any selected query	195.07632		
+1483	Did not pass any selected query	212.10205		
+1484	Did not pass any selected query	158.96097		
+1485	Did not pass any selected query	176.97143		
+1486	Did not pass any selected query	180.10157		
+1487	Did not pass any selected query	128.95036		
+1488	Did not pass any selected query	80.04893		
+1489	Did not pass any selected query	158.00225		
+1490	Did not pass any selected query	141.95796		
+1491	Did not pass any selected query	195.0761		
+1492	Did not pass any selected query	204.12282		
+1493	Did not pass any selected query	79.02024		
+1494	Did not pass any selected query	158.00244		
+1495	Did not pass any selected query	180.10162		
+1496	Did not pass any selected query	261.12307		
+1497	Did not pass any selected query	195.07619		
+1498	Did not pass any selected query	212.10233		
+1499	Did not pass any selected query	261.12288		
+1500	Did not pass any selected query	180.10102		
+1501	Did not pass any selected query	128.95032		
+1502	Did not pass any selected query	159.96843		
+1503	Did not pass any selected query	186.95573		
+1504	Did not pass any selected query	80.04892		
+1505	Did not pass any selected query	176.97154		
+1506	Did not pass any selected query	235.11811		
+1507	Did not pass any selected query	117.0541		
+1508	Did not pass any selected query	141.95795		

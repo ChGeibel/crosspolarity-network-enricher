@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="cosine" attr.type="double"/>
+<key id="d2" for="node" attr.name="RTMean" attr.type="double"/>
+<key id="d1" for="node" attr.name="precursor mass" attr.type="double"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="101">
+  <data key="d0">POS feature 101</data>
+  <data key="d1">301.1412</data>
+  <data key="d2">12.43</data>
+</node>
+<node id="102">
+  <data key="d0">POS feature 102</data>
+  <data key="d1">325.1078</data>
+  <data key="d2">14.21</data>
+</node>
+<node id="103">
+  <data key="d0">POS feature 103</data>
+  <data key="d1">441.2011</data>
+  <data key="d2">18.07</data>
+</node>
+<node id="104">
+  <data key="d0">104</data>
+  <data key="d1">343.1882</data>
+  <data key="d2">13.0</data>
+</node>
+<edge source="101" target="102">
+  <data key="d3">0.82</data>
+</edge>
+<edge source="101" target="104">
+  <data key="d3">0.62</data>
+</edge>
+<edge source="102" target="103">
+  <data key="d3">0.76</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,4 @@
+#Scan#	query_validation	query_name	Compound_Name
+101	TRUE	diagnostic_fragment_A	
+102	FALSE	diagnostic_fragment_A	
+103	TRUE	neutral_loss_B	
