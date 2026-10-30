@@ -192,7 +192,6 @@ def match_features(
     negative_adducts: dict[str, tuple[float, int]],
     mass_tolerance_ppm: float,
     rt_tolerance_min: float,
-    require_rt: bool,
     target_polarity: str,
 ) -> pd.DataFrame:
     """Generate adduct-aware neutral-mass candidates, then keep best adduct pair per feature pair."""
@@ -226,7 +225,9 @@ def match_features(
                 rt_error = abs(float(t.rt) - float(s.rt))
             else:
                 rt_error = np.nan
-            if require_rt and (not np.isfinite(rt_error) or rt_error > rt_tolerance_min):
+            # RT compatibility is mandatory: both features must have RT values
+            # and fall within the user-selected retention-time window.
+            if not np.isfinite(rt_error) or rt_error > rt_tolerance_min:
                 continue
             mass_error = float(t_mass) - float(s.neutral_mass)
             mean_mass = (float(t_mass) + float(s.neutral_mass)) / 2.0
@@ -891,7 +892,6 @@ def _activate_demo() -> None:
     st.session_state["neg_custom_enabled"] = False
     st.session_state["mass_tolerance_ppm_input"] = "10.0"
     st.session_state["rt_tolerance_min_input"] = "0.20"
-    st.session_state["require_rt"] = True
     st.session_state["tag_edge_delta_mass"] = True
     st.session_state["edge_delta_mass_text"] = "42.047"
     st.session_state["edge_delta_mass_tolerance_text"] = "0.001"
@@ -999,9 +999,14 @@ def _massql_upload_ui(label: str, polarity: str) -> tuple[dict[str, dict[str, An
     return hits, frame, upload.name
 
 
-def _toggle_how_to_use() -> None:
-    """Toggle the in-app quick-start guide."""
-    st.session_state["show_how_to_use"] = not st.session_state.get("show_how_to_use", False)
+def _show_how_to_use() -> None:
+    """Open the in-app quick-start guide as a separate view."""
+    st.session_state["show_how_to_use"] = True
+
+
+def _show_main() -> None:
+    """Return from the guide to the main CPNE workflow."""
+    st.session_state["show_how_to_use"] = False
 
 
 def main() -> None:
@@ -1017,27 +1022,32 @@ def main() -> None:
             "For creating PostMN MassQL .tsv files, go here: [https://apps.gnps2.org/postmn_massql](https://apps.gnps2.org/postmn_massql)."
         )
     st.caption(
-        "CPNE v0.6 • Local runs process files on your computer. In a hosted deployment, uploaded files are processed on the app server; "
+        "CPNE v0.7 • Local runs process files on your computer. In a hosted deployment, uploaded files are processed on the app server; "
         "do not upload confidential or restricted data to a public demo. Runtime-generated GNPS2 cache files may not persist after cloud restarts."
     )
 
     if "show_how_to_use" not in st.session_state:
         st.session_state["show_how_to_use"] = False
-    demo_col, guide_col, demo_text_col = st.columns([1.05, 0.9, 2.05])
-    with demo_col:
-        st.button("Load example files", type="secondary", on_click=_activate_demo, use_container_width=True)
-    with guide_col:
-        guide_label = "Hide how-to guide" if st.session_state["show_how_to_use"] else "How to use CPNE"
-        st.button(guide_label, type="secondary", on_click=_toggle_how_to_use, use_container_width=True)
-    with demo_text_col:
-        st.caption("Preloads the demo tasks, selected adducts, matching parameters, edge Δm tag, and bundled PostMN MassQL results.")
 
+    # Present the instructions as a separate view with an obvious route back.
     if st.session_state["show_how_to_use"]:
+        st.divider()
+        st.button("← Main", type="primary", on_click=_show_main, use_container_width=True, key="return_to_main")
+        st.title("How to use CPNE")
         with st.container(border=True):
             if HOWTO_PATH.exists():
                 st.markdown(HOWTO_PATH.read_text(encoding="utf-8"))
             else:
                 st.warning("HOW_TO_USE.md is missing from this installation. See the bundled README for basic instructions.")
+        st.stop()
+
+    demo_col, guide_col, demo_text_col = st.columns([1.05, 0.9, 2.05])
+    with demo_col:
+        st.button("Load example files", type="secondary", on_click=_activate_demo, use_container_width=True)
+    with guide_col:
+        st.button("How to use CPNE", type="secondary", on_click=_show_how_to_use, use_container_width=True)
+    with demo_text_col:
+        st.caption("Preloads the demo tasks, selected adducts, matching parameters, edge Δm tag, and bundled PostMN MassQL results.")
     st.divider()
 
     st.subheader("1. Data input")
@@ -1065,15 +1075,12 @@ def main() -> None:
         st.session_state["mass_tolerance_ppm_input"] = "10.0"
     if "rt_tolerance_min_input" not in st.session_state:
         st.session_state["rt_tolerance_min_input"] = "0.20"
-    if "require_rt" not in st.session_state:
-        st.session_state["require_rt"] = True
-    p1, p2, p3 = st.columns(3)
+    p1, p2 = st.columns(2)
     with p1:
         mass_tolerance_text = st.text_input("Neutral-mass tolerance (ppm)", help="Use a period as the decimal separator, e.g. 10.0.", key="mass_tolerance_ppm_input")
     with p2:
         rt_tolerance_text = st.text_input("Retention-time window (min)", help="Use a period as the decimal separator, e.g. 0.20.", key="rt_tolerance_min_input")
-    with p3:
-        require_rt = st.checkbox("Require RT compatibility", help="If enabled, a candidate pair must have RT values in both datasets and be within the selected RT window.", key="require_rt")
+    st.caption("Retention-time compatibility is always required: both features must have an RT value and fall within this window. This assumes comparable chromatographic conditions for both polarity runs.")
 
     def parse_dot_decimal(value: str, label: str, minimum: float, maximum: float) -> float | None:
         raw = value.strip()
@@ -1301,7 +1308,6 @@ def main() -> None:
                     negative_adducts=neg_adducts,
                     mass_tolerance_ppm=float(mass_tolerance_ppm),
                     rt_tolerance_min=float(rt_tolerance_min),
-                    require_rt=bool(require_rt),
                     target_polarity=target_polarity,
                 )
                 target_features = pos_features if target_polarity == "positive" else neg_features
@@ -1435,7 +1441,7 @@ def main() -> None:
             mime="application/json",
         )
         with st.expander("Run details"):
-            st.json({**summary, "files": result["source_names"], "mass_tolerance_ppm": float(mass_tolerance_ppm), "rt_tolerance_min": float(rt_tolerance_min), "require_rt": bool(require_rt), "edge_delta_mass_tagging_enabled": bool(tag_edge_delta_mass), "edge_target_delta_mass_da": edge_delta_mass_da if tag_edge_delta_mass else None, "edge_delta_mass_tolerance_da": edge_delta_mass_tolerance_da if tag_edge_delta_mass else None, "positive_adducts": {k: {"mass_shift_da": v[0], "charge_magnitude": v[1]} for k, v in pos_adducts.items()}, "negative_adducts": {k: {"mass_shift_da": v[0], "charge_magnitude": v[1]} for k, v in neg_adducts.items()}})
+            st.json({**summary, "files": result["source_names"], "mass_tolerance_ppm": float(mass_tolerance_ppm), "rt_tolerance_min": float(rt_tolerance_min), "rt_compatibility_required": True, "edge_delta_mass_tagging_enabled": bool(tag_edge_delta_mass), "edge_target_delta_mass_da": edge_delta_mass_da if tag_edge_delta_mass else None, "edge_delta_mass_tolerance_da": edge_delta_mass_tolerance_da if tag_edge_delta_mass else None, "positive_adducts": {k: {"mass_shift_da": v[0], "charge_magnitude": v[1]} for k, v in pos_adducts.items()}, "negative_adducts": {k: {"mass_shift_da": v[0], "charge_magnitude": v[1]} for k, v in neg_adducts.items()}})
 
     st.divider()
     with st.expander("Important notes / current prototype limits"):

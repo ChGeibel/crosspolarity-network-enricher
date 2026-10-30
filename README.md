@@ -1,4 +1,4 @@
-# Cross-Polarity Network Enricher (CPNE) — v0.6 demo profile
+# Cross-Polarity Network Enricher (CPNE) — v0.7
 
 A Streamlit app for matching positive- and negative-mode LC–MS features using adduct-aware neutral masses and retention time, then enriching a target molecular network with cross-polarity and optional PostMN MassQL information.
 
@@ -23,7 +23,7 @@ Click **Load example files** at the top of the app. It preloads this example pro
 - Positive adducts: `[M+H]+`, `[M+Na]+`, `[M+NH4]+`
 - Negative adducts: `[M-H]-`, `[M-H2O-H]-`, `[M+FA-H]-`, `[M+Na-2H]-`
 - Neutral-mass tolerance: 10 ppm
-- RT tolerance: 0.20 min, with RT compatibility required
+- RT tolerance: 0.20 min; RT compatibility is always required
 - Optional edge tagging: target precursor Δm = 42.047 Da, allowed error = ±0.001 Da
 - Task-specific PostMN MassQL exports from the two uploaded files are bundled with the app
 
@@ -54,7 +54,7 @@ For each selected adduct, neutral mass is calculated as:
 
 `neutral mass = observed m/z × |charge| − total ion mass shift`
 
-Mass tolerance and RT-window fields accept a period as the decimal separator, e.g. `10.0` and `0.20`. Multiple adduct hypotheses can be selected simultaneously, and the best adduct pair is reported for each matching feature pair. Cross-polarity matches are candidate assignments, not proof that two ions are the same compound.
+Mass tolerance and RT-window fields accept a period as the decimal separator, e.g. `10.0` and `0.20`. Retention-time compatibility is always required: both features must have RT values and their RT difference must fall within the selected window. Multiple adduct hypotheses can be selected simultaneously, and the best adduct pair is reported for each matching feature pair. Cross-polarity matches are candidate assignments, not proof that two ions are the same compound.
 
 ## Optional edge Δm tagging
 
@@ -74,7 +74,7 @@ The GraphML includes a human-friendly node attribute **`Matched cross polarities
 
 ## User guide
 
-The short guide is available as `HOW_TO_USE.md` and can also be opened inside the app using the **How to use CPNE** button.
+The short guide is available as `HOW_TO_USE.md` and can also be opened inside the app using the **How to use CPNE** button. The guide opens as a separate view and has a prominent **← Main** button to return to the workflow.
 
 ## Deploy online
 

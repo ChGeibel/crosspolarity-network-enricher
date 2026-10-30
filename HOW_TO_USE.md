@@ -8,7 +8,7 @@
 2. Choose the input route: **Upload files** or **Enter GNPS2 task IDs**.
 3. Choose the target network. For example, **Positive network ← Negative data** keeps the positive network and adds information from matched negative-mode features.
 4. Select the adduct hypotheses for both polarities. Custom adducts can be entered using an ion mass shift and charge magnitude.
-5. Set the neutral-mass tolerance (default **10 ppm**) and retention-time window (default **0.20 min**). When **Require RT compatibility** is enabled, candidate matches need RT values in both modes and must fall within the selected window.
+5. Set the neutral-mass tolerance (default **10 ppm**) and retention-time window (default **0.20 min**). Retention-time compatibility is always required: candidate matches need RT values in both modes and must fall within the selected window. Features without an RT value cannot be assigned.
 6. Optionally enable **edge tagging** to mark existing network edges whose absolute precursor m/z difference is within your target Δm and tolerance.
 7. Optionally upload PostMN MassQL Full Table `.tsv` exports. Select/confirm the scan or node ID column and the query-validation column for each polarity.
 8. Click **Run matching and enrich network**. Inspect the candidate match table and run summary before interpreting matches.
@@ -32,7 +32,7 @@ Create PostMN MassQL results at: <https://apps.gnps2.org/postmn_massql>
 
 ## Understanding the matching
 
-CPNE calculates candidate neutral masses from each observed m/z and each selected adduct hypothesis, taking the ion charge into account. It compares neutral-mass candidates within the ppm tolerance and, when requested, filters by retention-time difference. A match is a candidate assignment—not proof that two features are the same compound. Isomers, coelution, in-source fragments and incorrect adduct hypotheses can produce ambiguous matches.
+CPNE calculates candidate neutral masses from each observed m/z and each selected adduct hypothesis, taking the ion charge into account. It compares neutral-mass candidates within the ppm tolerance and always filters by retention-time difference. Both features must have RT values, and their RT difference must be within the selected window. A match is a candidate assignment—not proof that two features are the same compound. Isomers, coelution, in-source fragments and incorrect adduct hypotheses can produce ambiguous matches.
 
 Edge tagging uses the **absolute difference between precursor m/z values of nodes connected by an existing edge**. It does not search MS/MS fragment differences or neutral losses.
 
